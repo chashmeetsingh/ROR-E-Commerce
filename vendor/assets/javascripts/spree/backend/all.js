@@ -10,3 +10,9 @@
 
 //= require_tree .
 //= require spree/backend/spree_paypal_express
+//= require spree/backend/spree_reviews
+//= require spree/backend/spree_digital
+//= require spree/backend/spree_print_invoice
+//= require spree/backend/spree_social_products
+//= require spree/backend/spree_i18n
+//= require spree/backend/spree_simple_sales
