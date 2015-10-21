@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151019113906) do
+ActiveRecord::Schema.define(version: 20151021140841) do
 
   create_table "friendly_id_slugs", force: :cascade do |t|
     t.string   "slug",                      null: false
@@ -531,6 +531,10 @@ ActiveRecord::Schema.define(version: 20151019113906) do
     t.integer  "reviews_count",                                default: 0,     null: false
     t.boolean  "can_be_part",                                  default: false, null: false
     t.boolean  "individual_sale",                              default: true,  null: false
+    t.string   "video_file_name"
+    t.string   "video_content_type"
+    t.integer  "video_file_size"
+    t.datetime "video_updated_at"
   end
 
   add_index "spree_products", ["available_on"], name: "index_spree_products_on_available_on"

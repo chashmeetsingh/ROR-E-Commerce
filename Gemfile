@@ -59,3 +59,13 @@ gem 'spree_recently_viewed', github: 'spree-contrib/spree_recently_viewed', bran
 gem 'spree_social_products', github: 'spree-contrib/spree_social_products', branch: '3-0-stable'
 gem 'spree_i18n', git: 'git://github.com/spree/spree_i18n.git', branch: '3-0-stable'
 gem 'spree_simple_sales', :path => '../spree_simple_sales'
+gem 'jw_player_helper'
+gem 'prawn-rails'
+# Gems for image upload / download
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog'
+gem 'figaro'
+gem 'unf'
+gem 'rmagick'
+gem "paperclip"
